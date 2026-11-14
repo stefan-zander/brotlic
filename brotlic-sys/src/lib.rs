@@ -232,6 +232,8 @@ pub const BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_FORMAT_PADDING_1: BrotliDe
 pub const BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_FORMAT_PADDING_2: BrotliDecoderErrorCode =
     -15;
 pub const BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_FORMAT_DISTANCE: BrotliDecoderErrorCode = -16;
+pub const BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_FORMAT_BLOCK_SWITCH: BrotliDecoderErrorCode =
+    -17;
 pub const BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_COMPOUND_DICTIONARY: BrotliDecoderErrorCode =
     -18;
 pub const BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_DICTIONARY_NOT_SET: BrotliDecoderErrorCode =
