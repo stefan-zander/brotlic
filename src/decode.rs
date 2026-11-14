@@ -223,6 +223,9 @@ impl BrotliDecoder {
             BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_FORMAT_DISTANCE => {
                 DecodeError::FormatDistance
             }
+            BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_FORMAT_BLOCK_SWITCH => {
+                DecodeError::FormatBlockSwitch
+            }
             BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_COMPOUND_DICTIONARY => {
                 DecodeError::CompoundDictionary
             }
@@ -421,6 +424,7 @@ pub enum DecodeError {
     FormatPadding1 = BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_FORMAT_PADDING_1 as isize,
     FormatPadding2 = BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_FORMAT_PADDING_2 as isize,
     FormatDistance = BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_FORMAT_DISTANCE as isize,
+    FormatBlockSwitch = BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_FORMAT_BLOCK_SWITCH as isize,
     CompoundDictionary = BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_COMPOUND_DICTIONARY as isize,
     DictionaryNotSet = BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_DICTIONARY_NOT_SET as isize,
     InvalidArguments = BrotliDecoderErrorCode_BROTLI_DECODER_ERROR_INVALID_ARGUMENTS as isize,
