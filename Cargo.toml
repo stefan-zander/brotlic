@@ -1,8 +1,8 @@
 [package]
 name = "brotlic"
-version = "0.8.3"
+version = "0.8.4"
 edition = "2021"
-authors = ["Aron Parker <hl3mukkel@gmail.com>", "The Brotli Authors"]
+authors = ["Stefan Zander", "The Brotli Authors"]
 description = """
 Bindings to the brotli library featuring a low-overhead encoder and decoder,
 io::Write and io::Read wrappers for compression and decompression at customizable compression

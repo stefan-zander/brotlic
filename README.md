@@ -148,6 +148,6 @@ dual licensed as above, without any additional terms or conditions.
 
 ## Credits
 
-* [Aron Parker](https://github.com/AronParker) - for writing this library crate
+* [Stefan Zander](https://github.com/stefan-zander) - for writing this library crate
 * [Brotli C library](https://github.com/google/brotli) - for the underlying C library
 * [JetBrains](https://www.jetbrains.com/) - for their amazing tooling (CLion)

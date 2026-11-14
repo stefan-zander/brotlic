@@ -1,8 +1,8 @@
 [package]
 name = "brotlic-sys"
-version = "0.2.4"
+version = "0.2.5"
 edition = "2021"
-authors = ["Aron Parker <hl3mukkel@gmail.com>"]
+authors = ["Stefan Zander"]
 description = """
 Sys crate to wrap the brotli library.
 """
