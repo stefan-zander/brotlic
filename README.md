@@ -2,7 +2,7 @@
 
 [![Crates.io](https://img.shields.io/crates/v/brotlic)](https://crates.io/crates/brotlic)
 [![docs.rs](https://img.shields.io/docsrs/brotlic)](https://docs.rs/brotlic)
-[![GitHub Workflow Status](https://github.com/AronParker/brotlic/actions/workflows/rust.yml/badge.svg)](https://github.com/AronParker/brotlic/actions/workflows/rust.yml)
+[![GitHub Workflow Status](https://github.com/stefan-zander/brotlic/actions/workflows/rust.yml/badge.svg)](https://github.com/stefan-zander/brotlic/actions/workflows/rust.yml)
 ![License](https://img.shields.io/crates/l/brotlic)
 
 Brotlic (or BrotliC) is a thin wrapper around [brotli](https://github.com/google/brotli).

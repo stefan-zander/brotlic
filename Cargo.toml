@@ -10,7 +10,7 @@ qualities and window sizes.
 """
 license = "MIT OR Apache-2.0"
 documentation = "https://docs.rs/brotlic"
-repository = "https://github.com/AronParker/brotlic"
+repository = "https://github.com/stefan-zander/brotlic"
 keywords = ["brotli", "compression", "decompression"]
 categories = ["compression", "api-bindings"]
 readme = "README.md"
